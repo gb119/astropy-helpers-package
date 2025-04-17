@@ -1,0 +1,11 @@
+--- astropy-helpers-4.0.orig/setup.py	2019-10-26 20:50:58.000000000 -0300
++++ astropy-helpers-4.0/setup.py	2019-12-16 10:13:58.209766866 -0300
+@@ -14,7 +14,6 @@
+     sys.stderr.write("ERROR: setuptools 30.3 or later is required by astropy-helpers\n")
+     sys.exit(1)
+ 
+-from astropy_helpers.version_helpers import generate_version_py  # noqa
+-version = generate_version_py()
++version = "4.0"
+ 
+ setup(version=version)
